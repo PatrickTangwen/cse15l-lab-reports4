@@ -1,5 +1,5 @@
 # CSE15L Lab Reports 4
-In this lab report, I will demonstrate the task we perform on the lab.<br>
+In this lab report, I will demonstrate the task we did in the lab.<br>
 
 **1. Setup Delete any existing forks of the repository you have on your account** <br>
 <img width="841" alt="image" src="https://user-images.githubusercontent.com/102566928/221334310-30f9f488-513c-4943-b8de-c53517d31df1.png"> <br>
@@ -55,7 +55,7 @@ Same step, `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.
 **8. Commit and push the resulting change to your Github account**<br>
 <img width="515" alt="image" src="https://user-images.githubusercontent.com/102566928/221338406-c47be89f-1468-4ea9-8a0e-6285054f6d13.png">
 <img width="727" alt="image" src="https://user-images.githubusercontent.com/102566928/221338422-1e2c5ce4-360e-42bf-804a-7c31921b6486.png"><br>
-`git add` will add the my changes to an existing file (ListExample) to the set of changes to be committed.<br>
+`git add` will add my changes to an existing file (ListExample) to the set of changes to be committed.<br>
 `git commit -m` will commit my changes to the file with the user's message. <br>
 `git push` will upload my local repository content to the github remote repository.  
   
