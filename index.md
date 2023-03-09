@@ -13,7 +13,7 @@ I opened the link of lab7 repository and clicked the fork button. <br>
 **3. Log into ieng6** <br><br>
 <img width="430" alt="image" src="https://user-images.githubusercontent.com/102566928/221334648-b5d030d7-e037-4b11-8e5a-de7fdb024411.png"><br>
 `ssh cs15lwi23akw@ieng6.ucsd.edu` enables me to log into the school server. <br>
-Then I typed `<enter>`. It directly logs into the machine. 
+Then I typed `<enter>`. It directly logs into the machine. (The reason why I can directly log in without typing in the password is that in last week, we generated SSH keys for the ieng6 server by copying the my local's public SSH key to the remote account. In this way, I don't need to type in password anymore).
 
 **4. Clone your fork of the repository from your Github account**<br>
 <img width="859" alt="image" src="https://user-images.githubusercontent.com/102566928/221334900-d6303ec5-b055-4451-86d1-090505b264b6.png"><br>
@@ -30,7 +30,7 @@ key pressed: `<enter>`, it will execute the command above.
 
 **5. Run the tests, demonstrating that they fail**<br>
 <img width="982" alt="image" src="https://user-images.githubusercontent.com/102566928/221335045-fbd1ae37-41e0-4b06-9398-38b06149eca0.png"> <br>
-I went to the lab7 directory, and typed `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` to compile all the java files.<br>
+By typing in `cd lab7`, I went to the lab7 directory, and typed `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` to compile all the java files.<br>
 
 Then, I typed `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` to run all the tests in ListExamplesTest.java. It turns out that there are two tests and one of the test is fail.<br>
 
