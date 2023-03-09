@@ -41,8 +41,12 @@ key pressed: `<enter> <enter>`, each enter will execute the each command above.
 `nano ListExamples.java` will give me the text editor of this file.<br>
 key pressed: `<tab><tab><tab><enter>`<br>
 The first two <tab> will display the abbreviation of the two java files 'List',then the last `<tab>` will give me the `ListExamples`. <enter> will execute the command I typed.<br>
+
+Then I found the bug and fixed by the following commands and keystrokes:<br>
+`Ctrl-W while(index2 < list2.size()) <down><down><right><right><right><right><right><right><right><right><delete>2`.<br>
+Specifically, the bug is on line 42 in ListExamples.java where `index1 += 1` should be fixed as `index2 += 1`. To jump to the line, I used `Ctrl-W while(index2 < list2.size())` to direct to the line 42 and then change the 1 to 2.<br>
   
-Then I found the bug and fixed. To saved my change, I typed `Ctrl-O`. To back to the previous editor window, I pressed `<enter>`. Then, to exit the text editor, I typed `Ctrl-X` and pressed <enter>, it gives me back to the terminal.
+To saved my change, I typed `Ctrl-O`. To back to the previous editor window, I pressed `<enter>`. Then, to exit the text editor, I typed `Ctrl-X` and pressed <enter>, it gives me back to the terminal.
 
 **7. Run the tests, demonstrating that they now succeed**<br>
 <img width="1008" alt="image" src="https://user-images.githubusercontent.com/102566928/221336040-a611194e-67e0-4dd1-9b45-0e4e3853a2fe.png">
