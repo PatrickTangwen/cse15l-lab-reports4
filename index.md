@@ -44,7 +44,7 @@ The first two <tab> will display the abbreviation of the two java files 'List',t
 
 Then I found the bug and fixed by the following commands and keystrokes:<br>
 `Ctrl-W while(index2 < list2.size()) <down><down><right><right><right><right><right><right><right><right><delete>2`.<br>
-Specifically, the bug is on line 43 in ListExamples.java where `index1 += 1` should be fixed as `index2 += 1`. To jump to the line, I used `Ctrl-W while(index2 < list2.size())` to direct to the line 41 and then press <down><down> to the line43, and lastly change the 1 to 2.<br>
+Specifically, the bug is on line 43 in ListExamples.java where `index1 += 1` should be fixed as `index2 += 1`. To jump to the line, I used `Ctrl-W while(index2 < list2.size())` to direct to the line 41 and then press 2 downs to the line43, and lastly change the 1 to 2.<br>
   
 To saved my change, I typed `Ctrl-O`. To back to the previous editor window, I pressed `<enter>`. Then, to exit the text editor, I typed `Ctrl-X` and pressed <enter>, it gives me back to the terminal.
 
